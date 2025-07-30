@@ -1,11 +1,10 @@
 
 <script>
-import Teste from './Teste.vue';
-
+import Ingredientes from '@/components/Ingredientes.vue';
 
     export default {
         components: {
-            Teste
+            Ingredientes
         },
         name: 'ConteudoPrincipal',
         data() {
@@ -40,7 +39,8 @@ import Teste from './Teste.vue';
                 Sua lista está vazia!
             </p>
         </section>
-<Teste />
+
+        <Ingredientes />
     </main>
 
     

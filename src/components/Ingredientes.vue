@@ -5,6 +5,5 @@
 <style>
     .ingredientes {
         color: var(--cinza, #444);
-       
     }
 </style>
