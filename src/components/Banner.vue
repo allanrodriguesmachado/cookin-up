@@ -1,24 +1,25 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-})
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+      <header class="banner">
+    <div class="apresentacao">
+      <img src="./assets/images/logo.svg" alt="Logo da empresa" class="logo" />
+
+      <p class="cabecalho-lg frase-cabecalho">
+        <span class="texto-verde">Um banquete de idaias para</span>
+        despertar o chef que ha em voce!
+      </p>
+
+      <div class="subtitulo-lg">
+        Explore novas receitas todos os dias com os ingredientes que estao ao seu alcance!
+      </div>
+    </div>
+
+
+    <img src="./assets/images/foto-banner.png" alt="" class="foto-banner">
+  </header>
 </template>
 
-<style scoped>
+
+<style>
 .banner {
   padding: 4rem 7.5rem;
   color: var(--creme);
@@ -70,5 +71,4 @@ defineProps({
     width: min(100%, 21.25rem);
   }
 }
-
 </style>
