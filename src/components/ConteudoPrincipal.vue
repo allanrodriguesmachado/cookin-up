@@ -1,5 +1,12 @@
+
 <script>
+import Teste from './Teste.vue';
+
+
     export default {
+        components: {
+            Teste
+        },
         name: 'ConteudoPrincipal',
         data() {
             return {
@@ -33,7 +40,10 @@
                 Sua lista está vazia!
             </p>
         </section>
+<Teste />
     </main>
+
+    
 </template>
 
 <style scoped>
